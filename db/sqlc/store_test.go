@@ -7,7 +7,7 @@ import (
 )
 
 func TransferTx(t *testing.T) {
-	store := newStore(testDb)
+	store := NewStore(testDb)
 	account1 := createRandomAccount(t)
 	account2 := createRandomAccount(t)
 
